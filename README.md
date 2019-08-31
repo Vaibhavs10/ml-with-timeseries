@@ -1,10 +1,20 @@
-﻿## Machine Learning with Time Series
+﻿## Tutorial: Machine Learning with Time Series
 
-### Talk Abstract
+Round of applause to Andrii Gakhov and his video tutorials!
+
+Instructor: [Vaibhav Srivastav](https://www.linkedin.com/in/vaibhavs10/)
+
+### Abstract
 
 Time series is an important instrument to model, analyze and predict data collected over time. In this talk, we learn the basic theoretical concepts without going deep into mathematical aspects, study different models, and try them in practice using StatsModels, Prophet, scikit-learn, and keras.
 
-### Talk Description
+### Required Software
+
+Attendees will need to bring a laptop with [scikit-learn](http://scikit-learn.org/stable/install.html) and [pandas](http://pandas.pydata.org/pandas-docs/stable/install.html) (and their dependencies) already installed. Installing the [Anaconda distribution of Python](https://www.continuum.io/downloads) is an easy way to accomplish this. Both Python 2 and 3 are welcome.
+
+I will be leading the tutorial using the IPython/Jupyter notebook, and have added a pre-written notebook to this repository. I have also created a Python script that is identical to the notebook, which you can use in the Python environment of your choice.
+
+### Description
 
 Nowadays, it is hard to find a company that doesn’t collect various time-dependent data in different forms, for instance, it can be a daily number of visitors and monthly sales for online stores, available resources and stock for factories, number of food poisoning cases for hospitals, and so on. And the reason why all that data is carefully collected, because it can provide meaningful insides not only about the past but can be used to predict and prepare for the future.
 
@@ -14,12 +24,13 @@ The first part is dedicated to the theoretical introduction of time series, wher
 
 With these guidelines in mind, you should be better equipped to deal with time series in your everyday work and opt-in for the right tools to analyze them.
 
-To follow the talk it's not required any prior knowledge of time series analysis, but the basic understanding of mathematics and machine learning approaches could be quite helpful.
-
-
 GitHub repository: https://github.com/vaibhavs10/ml-for-timeseries/
 
-### Generic dataset exploration
+### Prerequisite Knowledge
+
+Attendees to this tutorial should be comfortable working in Python, should understand the basic principles of machine learning, and should have at least basic experience with both pandas and scikit-learn. However, no knowledge of advanced mathematics is required.
+
+### Dataset
 
 To demonstrate the mentioned in the presentation models, I will use the following dataset:
 
@@ -41,34 +52,6 @@ Another example is Facebook Prophet model that implements an additive regression
 
 * Jupyter Notebook: https://github.com/vaibhavs10/ml-for-timeseries/blob/master/prophet.ipynb
 * Python package: [Facebook Prophet](https://github.com/facebook/prophet)
-
-Dependencies
----------------------
-
-* Python 3.3+ (http://python.org/download/)
-
-
-Install with pip
---------------------
-
-Installation requires a working build environment that can be build automatically using `make` utility:
-
-    $ make
-    $ make run
-
-After these commands your default browser should open a Jupyter notebook's index page.
-
-
-License
--------
-
-MIT License
-
-
-Source code
------------
-
-* https://github.com/vaibhavs10/ml-for-timeseries/
 
 
 Author
